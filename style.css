@@ -1,0 +1,13 @@
+:root {
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-primary);
+    font-weight: 300;
+    box-sizing: border-box;
+    background-color: white;
+}
