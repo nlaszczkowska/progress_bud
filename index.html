@@ -14,39 +14,75 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">
-                <img src="images/logo2025.png" alt="Progress Bud Logo">
-                <span>progress bud</span>
+            <div class="navbar-left">
+                <img src="images/logo2025.png" alt="Progress Bud Logo" class="logo">
+                <span class="company-name">progress bud</span>
             </div>
+
             <div class="contact-info">
                 <span>ZADZWOŃ: TEL: +48 024 262 82 06</span> |
                 <span>EMAIL: <a href="mailto:BIURO@PROGRESSBUD.PL">BIURO@PROGRESSBUD.PL</a></span>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#o-firmie">O FIRMIE</a></li>
-                <li><a href="#oferta">OFERTA</a></li>
-                <li><a href="#sprzet">SPRZĘT</a></li>
-                <li><a href="#certyfikaty">CERTYFIKATY</a></li>
-                <li><a href="#galeria">GALERIA</a></li>
-                <li><a href="#kontakt">KONTAKT</a></li>
-            </ul>
-            <div class="lang-switch">
-                <button class="lang-btn">PL</button>
-                <button class="lang-btn">EN</button>
+
+            <div class="navbar-right">
+                <div class="lang-switch">
+                    <button class="lang-btn">PL</button>
+                    <button class="lang-btn">EN</button>
+                </div>
             </div>
         </nav>
+
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">O FIRMIE</a></li>
+                <li><a href="#services">OFERTA</a></li>
+                <li><a href="#equipment">SPRZĘT</a></li>
+                <li><a href="#certificates">CERTYFIKATY</a></li>
+                <li><a href="#gallery">GALERIA</a></li>
+                <li><a href="#contact">KONTAKT</a></li>
+            </ul>
+        </div>
     </header>
     
     <section class="hero">
-        <div class="hero-content">
-            <h1>Twój solidny partner w budownictwie i instalacjach!</h1>
-            <p>Specjalizujemy się w wykonywaniu prac instalacyjnych, antykorozyjnych stali i betonu, izolacyjnych oraz budowlanych i kanalizacyjnych.</p>
+        <div class="hero-left">
+            <div class="hero-content">
+                <h1>Twój solidny<br> partner<br> w budownictwie<br>i instalacjach!</h1>
+                <p>Specjalizujemy się w wykonywaniu prac<br> instalacyjnych, antykorozyjnych stali i betonu,<br>izolacyjnych oraz budowlanych i<br> kanalizacyjnych.</p>
+            </div>
         </div>
         <div class="hero-image">
-            <img src="images/image-hero.png" alt="Progress Bud Hero">
+            <div class="hero-overlay"></div>
         </div>
     </section>
 
+
+    <section class="services">
+        <h2 class="services-title">progress bud</h2>
+        <p class="services-description">Przedsiębiorstwo Remontowo – Budowlane PROGRESS-BUD B. Pliszka Sp.J. powstało w 1992 roku, przechodząc różne przeobrażenia, w obecnym kształcie od</p>
+        <div class="services-container">
+            <div class="service-box">
+                <img src="images/icon1.png" alt="Roboty Montażowe">
+                <h3>ROBOTY MONTAŻOWE</h3>
+                <p>Specjalizujemy się w montażu i demontażu rurociągów oraz armatury przemysłowej, zapewniając najwyższą precyzję i bezpieczeństwo.</p>
+            </div>
+            <div class="service-box">
+                <img src="images/icon2.png" alt="Roboty Budowlane i Antykorozyjne">
+                <h3>ROBOTY BUDOWLANE I ANTYKOROZYJNE</h3>
+                <p>Wykonujemy kompleksową ochronę antykorozyjną betonu i stali, wydłużając trwałość konstrukcji.</p>
+            </div>
+            <div class="service-box">
+                <img src="images/icon3.png" alt="Roboty Izolacyjne">
+                <h3>ROBOTY IZOLACYJNE</h3>
+                <p>Montujemy izolacje przeciwwilgociowe i ciepłochronne, poprawiając efektywność energetyczną instalacji przemysłowych.</p>
+            </div>
+        </div>
+        <div class="services-buttons">
+            <button class="btn btn-outline">O FIRMIE</button>
+            <button class="btn btn-filled">OFERTA</button>
+        </div>
+    </section>
+    
 </body>
 </html>
