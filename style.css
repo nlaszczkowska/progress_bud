@@ -176,3 +176,77 @@ body {
 .nav-links a:hover {
     color: #00DC7B;
 }
+
+/* services-section */
+
+.services {
+    text-align: center;
+    padding: 80px 0;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.services-title {
+    font-family: var(--font-secondary);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.services-description {
+    font-size: 17px;
+    font-weight: 400;
+    color: #666666;
+    max-width: 800px;
+    margin: 0 auto 120px auto;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.service-box img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 17px;
+    font-weight: 400;
+    color:#666666;
+    line-height: 1.6;
+}
+
+.services-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.btn-sr {
+    padding: 20px 80px;
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid #00DC7B;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-sr:hover {
+    background-color: #00DC7B;
+}
+
+
