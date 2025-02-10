@@ -321,3 +321,50 @@ body {
 .gallery-link:hover .arrow-icon {
     transform: translateX(5px);
 }
+
+/* footer */
+
+.footer {
+    background: #00225B;
+    color: white;
+    padding: 100px 250px;
+    text-align: center;
+}
+
+.footer-nav {
+    margin-bottom: 130px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+    color: #00DC7B;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e7d7d;
+    margin-top: 100px;
+}
+
+.footer-brand {
+    font-weight: 600;
+    color: white;
+}
