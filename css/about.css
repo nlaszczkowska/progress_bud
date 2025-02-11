@@ -1,16 +1,3 @@
-.about-hero {
-    background: #00225B;
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-.about-hero h1 {
-    font-size: 48px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-}
-
 .about-content {
     max-width: 1200px;
     margin: 0 auto;
