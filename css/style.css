@@ -31,7 +31,7 @@ body {
 .hero-image {
     width: 50%;
     height: 100vh;
-    background: url('images/image-hero.png') no-repeat center center;
+    background: url('/images/image-hero.png') no-repeat center center;
     background-size: cover;
 }
 
