@@ -38,3 +38,41 @@
     line-height: 40px;
     margin: 50px 0px;
 }    
+
+.company-info {
+    padding: 80px 120px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: flex-start ;
+}
+
+.info-text h2, .certs-text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: #00225B;
+    font-family: var(--font-secondary);
+}
+
+.info-text p, .certs-text p, .certs-text ul {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+.certs-text-container {
+    display: flex;
+}
+
+.certs {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
