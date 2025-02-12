@@ -50,20 +50,20 @@
     padding-bottom: 200px;
 }
 
-.crew-text h2 {
+.text h2 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 80px;
 }
 
-.crew-text p, ul {
+.text p, ul {
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
     color: #6C6C6C;
 }
 
-.crew-text ul {
+.text ul {
     list-style-type: circle;
     padding-left: 20px;
 }
@@ -82,3 +82,39 @@
     height: auto;
 }
 
+.certifications {
+    padding-bottom: 100px;
+}
+
+.certifications-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cert-top {
+    display: flex;
+    gap: 200px;
+}
+
+.cert-top-text h2 {
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.cert-top-text p {
+    margin-bottom: 40px;
+}
+
+.cert-top-text ul li {
+    margin-bottom: 20px;
+}
+
+.cert-bottom {
+    margin-top: 40px;
+}
+
+.cert-highlight {
+    font-weight: 700;
+}
