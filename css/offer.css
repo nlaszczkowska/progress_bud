@@ -1,0 +1,43 @@
+.offer-text {
+    margin-left: 180px;
+}
+
+.offer-text-container p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #6C6C6C;
+    line-height: 24px;
+    margin: 70px 0px;
+}
+
+.services-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-left: 400px;
+    padding: 50px 0;
+}
+
+.services-container {
+    align-items: center;
+    gap: 150px;
+    justify-content: flex-start;
+}
+
+.service-box h3 {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.service-box p {
+    margin: 40px 0;
+}
+
+.service-box ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.6;
+}
