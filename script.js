@@ -12,15 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => document.getElementById("footer").innerHTML = data);
 });
 
-
-function toggleMenu() {
-    const menu = document.querySelector('.nav-links-container');
-    menu.classList.toggle('show');
-    document.body.classList.toggle('no-scroll');
-}
-
-function toggleMenu() {
-    const menu = document.querySelector('.nav-links-cont');
-    menu.classList.toggle('show');
-    document.body.classList.toggle('no-scroll');
+function toggleMenu() { 
+    let menu = document.querySelector('.nav-links-container')
+     if (!menu) { 
+        menu = document.querySelector('.nav-links-cont') 
+    } 
+     if (menu) { 
+        menu.classList.toggle('show') 
+    } 
+    document.body.classList.toggle('no-scroll') 
 }
