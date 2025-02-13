@@ -1,3 +1,7 @@
+.projects {
+    padding-bottom: 60px;
+}
+
 .all-projects {
     max-width: 1000px;
     margin: 0 auto;
@@ -22,8 +26,81 @@
 .project-year ul li {
     font-size: 16px;
     font-weight: 400;
-    color: #333;
+    color: #6C6C6C;
     padding: 8px 0;
     border-bottom: 1px solid #ddd;
 }
 
+@media (max-width: 1310px) {
+  .all-projects {
+    max-width: 800px;
+  }
+
+  .project-year h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .all-projects {
+    max-width: 650px;
+  }
+
+  .project-year h2 {
+    font-size: 20px;
+  }
+
+  .project-year h3 {
+    font-size: 18px;
+  }
+
+  .project-year ul li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .all-projects {
+    max-width: 600px;
+  }
+
+  .project-year h2 {
+    font-size: 18px;
+  }
+
+  .project-year h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .all-projects {
+    max-width: 500px;
+    padding: 0 30px;
+  }
+
+  .project-year h3 {
+    font-size: 14px;
+  }
+
+  .project-year ul li {
+    font-size: 12px;
+    padding: 4px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .all-projects {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .project-year h2 {
+    font-size: 16px;
+  }
+
+  .project-year ul li {
+    line-height: 18px;
+  }
+}
+  
