@@ -259,6 +259,9 @@ body {
 }
 
 .btn-sr {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
     padding: 20px 80px;
     font-family: var(--font-secondary);
     font-size: 18px;
