@@ -59,3 +59,20 @@
 #next {
   right: 20px;
 }
+
+@media (max-width: 767px) {
+  .gallery-sub-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 20px;
+  }
+
+  .gallery-item img {
+    width: 100%;
+  }
+  
+  #lightbox-img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+}
