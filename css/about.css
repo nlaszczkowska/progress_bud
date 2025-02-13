@@ -84,3 +84,170 @@
 .services-title {
     margin-bottom: 130px;
 }
+
+@media (max-width: 1730px) {
+ .hero-about-content {
+    margin-left: 140px;
+  }
+
+  .hero-about-content h1 {
+    font-size: 56px;
+  }
+
+  .hero-about-content p {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 10px 0px;
+  }
+
+  .company-info {
+    padding: 80px 50px;
+  }
+
+  .info-image img {
+    max-width: 100%;
+  }
+
+  .info-grid {
+    gap: 80px;
+  }
+
+  .info-text h2, .certs-text h2 {
+    font-size: 24px;
+    line-height: 30px
+  }
+
+  .info-text p, .certs-text p, .certs-text ul {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 0px;
+    }
+}
+
+@media (max-width: 1310px) {
+  .hero-about-content h1 {
+    font-size: 54px;
+  }
+
+  .hero-about-content p {
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .company-info {
+    padding: 80px 50px 0px;
+  }
+
+  .info-grid {
+    gap: 60px;
+    align-items: center;
+  }
+
+  .services-title {
+    margin-bottom: 90px;
+  }
+
+  .certs-text-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1160px) {
+    .hero-about-content h1 {
+      font-size: 50px;
+    }
+
+    .hero-about-content p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .info-grid {
+      gap: 40px;
+    }
+}
+
+@media (max-width: 1060px) {
+  .hero-about-content {
+    margin-left: 100px;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .company-info {
+    padding: 80px 70px 0px;
+  }
+  .info-image {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-about-content {
+    margin-left: 50px;
+  }
+  .hero-about-content h1 {
+    font-size: 46px;
+  }
+  .hero-about-content p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-about-content {
+    margin-left: 30px;
+  }
+
+  .hero-about-content h1 {
+    font-size: 38px;
+  }
+
+  .hero-about-content p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .company-info {
+    padding: 60px 40px 0px;
+  }
+
+  .certs-text-container {
+    flex-direction: column;
+  }
+
+  .certs {
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-about-content {
+    margin-left: 20px;
+  }
+
+  .hero-about-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-about-content p {
+    display: none;
+  }
+
+  .info-text h2, .certs-text h2 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .info-text p, .certs-text p, .certs-text ul {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
