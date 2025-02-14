@@ -488,7 +488,7 @@ body {
         height: 100%;
         display: none;
         background: #00225B;
-        padding-top: 80px;
+        padding-top: 100px;
         z-index: 2;
     }
 
@@ -498,17 +498,17 @@ body {
     }
 
     .menu-close {
-        display: flex;
+        display: block;
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 30px;
+        right: 40px;
         background: none;
         border: none;
         font-size: 30px;
-        color: white;
+        color: #fff;
         cursor: pointer;
     }
-
+    
     .desktop-only {
         display: none;
     }
@@ -777,5 +777,9 @@ body {
 
     .hero-bottom-right.mobile-only .contact-info {
         font-size: 10px;
+    }
+
+    .nav-links-container {
+        padding-top: 50px;
     }
 } 
