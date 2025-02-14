@@ -54,3 +54,17 @@ lightbox.addEventListener('click', function (event) {
     lightbox.style.display = 'none'
   }
 })
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+      if (entry.isIntersecting) {
+          entry.target.classList.add('in-view')
+      } else {
+          entry.target.classList.remove('in-view')
+      }
+  })
+}, { threshold: 0.3 })
+
+document.querySelectorAll('.hero-content, .services').forEach(section => {
+  observer.observe(section)
+})
