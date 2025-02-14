@@ -59,18 +59,19 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   const observer = new IntersectionObserver(
-      entries => {
-          entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                  entry.target.classList.add("in-view");
-              } else {
-                  entry.target.classList.remove("in-view");
-              }
-          });
-      },
-      {threshold: 0.05}
+    entries => {
+      entries.forEach(entry => {
+        console.log(entry.target, entry.intersectionRatio);
+        if (entry.intersectionRatio > 0) {
+          entry.target.classList.add("in-view");
+        } else {
+          entry.target.classList.remove("in-view");
+        }
+      });
+    },
+    { threshold: 0, rootMargin: "0px 0px -50px 0px" }
   );
-
+  
   document.querySelectorAll(".hero-content, .hero-about-content, .services, .services-vertical, .gallery, .company-info, .crew-base, .subpage-title, .equipment, .projects, .certificates, .contact")
   .forEach(section => {
     console.log("Observing:", section);
@@ -84,7 +85,7 @@ function toggleMenu() {
       menu = document.querySelector(".nav-links-cont");
   }
   if (menu) {
-      menu.classList.toggle("show");
+      menu.classList.toggle("show");    
   }
   document.body.classList.toggle("no-scroll");
 }
