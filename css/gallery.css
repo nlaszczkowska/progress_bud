@@ -60,6 +60,27 @@
   right: 20px;
 }
 
+@keyframes equipmentCategoryIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gallery {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.gallery.in-view {
+  animation: equipmentCategoryIn 1s ease-out forwards;
+}
+
 @media (max-width: 767px) {
   .gallery-sub-container {
     grid-template-columns: repeat(2, 1fr);

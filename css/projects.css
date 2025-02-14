@@ -31,6 +31,27 @@
     border-bottom: 1px solid #ddd;
 }
 
+@keyframes equipmentCategoryIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.projects {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.projects.in-view {
+  animation: equipmentCategoryIn 1s ease-out forwards;
+}
+
 @media (max-width: 1310px) {
   .all-projects {
     max-width: 800px;

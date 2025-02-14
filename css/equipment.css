@@ -36,6 +36,48 @@
     background-color: #EBF2FF;
 }
 
+@keyframes equipmentTitleIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes equipmentCategoryIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.subpage-title {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.subpage-title.in-view {
+  animation: equipmentTitleIn 1s ease-out forwards;
+}
+
+.equipment {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.equipment.in-view {
+  animation: equipmentCategoryIn 1s ease-out forwards;
+}
+
 @media (max-width: 1730px) {
   .subpage-title {
     font-size: 56px;

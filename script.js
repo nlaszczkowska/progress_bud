@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
       {threshold: 0.05}
   );
 
-  document.querySelectorAll(".hero-content, .hero-about-content, .services, .services-vertical, .gallery, .company-info, .crew-base")
+  document.querySelectorAll(".hero-content, .hero-about-content, .services, .services-vertical, .gallery, .company-info, .crew-base, .subpage-title, .equipment, .projects, .certificates, .contact")
   .forEach(section => {
     console.log("Observing:", section);
     observer.observe(section);

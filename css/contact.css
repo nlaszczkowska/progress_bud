@@ -20,6 +20,27 @@
     color: #00225B;
 }
 
+@keyframes equipmentCategoryIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .contact {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .contact.in-view {
+    animation: equipmentCategoryIn 1s ease-out forwards;
+}
+
 @media (max-width: 1730px) {
     .contact-container {
         max-width: 1000px;
