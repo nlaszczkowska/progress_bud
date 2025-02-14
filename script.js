@@ -74,11 +74,11 @@ document.addEventListener("DOMContentLoaded", function() {
       }
   );
 
-  document.querySelectorAll(".hero-content, .hero-about-content, .services")
-      .forEach(section => {
-          console.log("Observing:", section);
-          observer.observe(section);
-      });
+  document.querySelectorAll(".hero-content, .hero-about-content, .services, .gallery")
+  .forEach(section => {
+    console.log("Observing:", section);
+    observer.observe(section);
+  });
 });
 
 function toggleMenu() {
