@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
   );
 
-  document.querySelectorAll(".hero-content, .hero-about-content, .services, .gallery")
+  document.querySelectorAll(".hero-content, .hero-about-content, .services, .gallery, .company-info")
   .forEach(section => {
     console.log("Observing:", section);
     observer.observe(section);
