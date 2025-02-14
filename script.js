@@ -68,13 +68,10 @@ document.addEventListener("DOMContentLoaded", function() {
               }
           });
       },
-      {
-          threshold: 0.1,
-          rootMargin: "0px 0px -100px 0px"
-      }
+      {threshold: 0.05}
   );
 
-  document.querySelectorAll(".hero-content, .hero-about-content, .services, .gallery, .company-info")
+  document.querySelectorAll(".hero-content, .hero-about-content, .services, .services-vertical, .gallery, .company-info, .crew-base")
   .forEach(section => {
     console.log("Observing:", section);
     observer.observe(section);

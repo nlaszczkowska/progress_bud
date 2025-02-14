@@ -42,6 +42,48 @@
     line-height: 1.6;
 }
 
+@keyframes offerImageIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes offerContentIn {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.services-vertical .services-container img {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.services-vertical .services-container .service-box {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.services-vertical.in-view .services-container img {
+  animation: offerImageIn 0.8s ease-out forwards;
+}
+
+.services-vertical.in-view .services-container .service-box {
+  animation: offerContentIn 0.8s ease-out forwards;
+}
+
 .crew-base {
     display: flex;
     justify-content: space-between;
@@ -117,6 +159,27 @@
 
 .cert-highlight {
     font-weight: 700;
+}
+
+@keyframes sectionFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.crew-base {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.crew-base.in-view {
+  animation: sectionFadeIn 1s ease-out forwards;
 }
 
 @media (max-width: 1730px) {
