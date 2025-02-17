@@ -21,7 +21,7 @@ body {
 
 .hero-left {
     width: 50%;
-    background: #00225B;
+    background: #9EA629;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@ body {
 .hero-content h1 {
     font-family: var(--font-secondary);
     font-size: 64px;
-    background: linear-gradient(90deg, #00DC7B, #E2EF93);
+    background: linear-gradient(90deg, #ECFFBD, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
@@ -78,7 +78,7 @@ body {
 }
 
 .hero-content p {
-    color: #C8C7CC;
+    color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     margin-top: 80px;
@@ -140,7 +140,7 @@ body {
 .lang-btn {
     background: rgba(169, 169, 169, 0.3);
     font-family: var(--font-secondary);
-    color: black;
+    color: white;
     border: none;
     padding: 10px;
     font-size: 16px;
@@ -151,7 +151,7 @@ body {
 }
 
 .lang-btn:hover {
-    background: #00DC7B;
+    background: black;
 }
 
 .nav-links-container {
@@ -176,7 +176,7 @@ body {
 }
 
 .nav-links a.active {
-    color: #00DC7B;
+    color: black;
 }
 
 .nav-links {
@@ -202,7 +202,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #00DC7B;
+    color: #9EA629;
 }
 
 .menu-toggle {
@@ -295,13 +295,13 @@ body {
     font-size: 18px;
     font-weight: 600;
     background-color: white;
-    border: 1px solid #00DC7B;
+    border: 1px solid #9EA629;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn-sr:hover {
-    background-color: #00DC7B;
+    background-color: #9EA629;
 }
 
 @keyframes fadeInUp {
@@ -357,6 +357,7 @@ body {
 
 .gallery.home {
     background-color:#F9F9F9;
+    padding-bottom: 0px;
 }
 
 .gallery-container {
@@ -411,7 +412,7 @@ body {
 }
 
 .gallery-link:hover {
-    color: #00DC7B;
+    color: #9EA629;
 }
 
 .arrow-icon {
@@ -449,7 +450,7 @@ body {
 /* footer */
 
 .footer {
-    background: #00225B;
+    background: #9EA629;
     color: white;
     padding: 100px 250px;
     text-align: center;
@@ -479,17 +480,17 @@ body {
 }
 
 .footer-links a.active {
-    color: #00DC7B;
+    color: black;
 }
 
 .footer-links a:hover {
-    color: #00DC7B;
+    color: #9EA629;
 }
 
 .footer-text {
     font-size: 14px;
     font-weight: 400;
-    color: #7e7d7d;
+    color: #FFFFFF;
     margin-top: 100px;
 }
 
@@ -573,7 +574,7 @@ body {
     }
 
     .menu-toggle:hover {
-        color: #00DC7B;
+        color: #9EA629;
     }
 
     .nav-links-container {
