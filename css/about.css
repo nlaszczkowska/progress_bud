@@ -133,8 +133,12 @@
     margin-bottom: 130px;
 }
 
-@media (max-width: 1780px) {
+@media (max-width: 1830px) {
 .info-text br {
+  display: none;
+}
+
+.certs-text br {
   display: none;
 }
 }
@@ -194,7 +198,6 @@
 
   .info-grid {
     gap: 60px;
-    align-items: center;
   }
 
   .services-title {
