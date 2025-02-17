@@ -1,5 +1,5 @@
 header {
-    background-color: #00225B;
+    background-color: #9EA629;
     color: white;
     padding: 1px 0;
 }
@@ -42,7 +42,7 @@ header {
         width: 100%;
         height: 100%;
         display: none;
-        background: #00225B;
+        background: #9EA629;
         padding-top: 50px;
         z-index: 2;
     }
