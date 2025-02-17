@@ -62,14 +62,19 @@
 }
 
 .company-info {
-  padding: 140px 80px 30px;
+  padding: 140px 180px 30px;
 }
 
 .info-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
-    align-items: flex-start ;
+    align-items: flex-start;
+}
+
+.info-image img {
+  max-width: 100%;
+  height: auto;
 }
 
 .info-text h2, .certs-text h2 {
@@ -129,6 +134,12 @@
     margin-bottom: 130px;
 }
 
+@media (max-width: 1780px) {
+.info-text br {
+  display: none;
+}
+}
+
 @media (max-width: 1730px) {
  .hero-about-content {
     margin-left: 140px;
@@ -145,7 +156,7 @@
   }
 
   .company-info {
-    padding: 80px 50px;
+    padding: 80px 140px;
   }
 
   .info-image img {
@@ -179,7 +190,7 @@
   }
 
   .company-info {
-    padding: 80px 50px 0px;
+    padding: 80px 140px 0px;
   }
 
   .info-grid {
@@ -222,7 +233,7 @@
   }
 
   .company-info {
-    padding: 80px 70px 0px;
+    padding: 80px 100px 0px;
   }
   .info-image {
     margin-top: 20px;
@@ -240,13 +251,13 @@
     font-size: 18px;
     line-height: 20px;
   }
+
+  .company-info {
+    padding: 80px 50px 0px;
+  }
 }
 
 @media (max-width: 767px) {
-  .hero-about-content {
-    margin-left: 30px;
-  }
-
   .hero-about-content h1 {
     font-size: 38px;
   }
@@ -259,7 +270,7 @@
   }
 
   .company-info {
-    padding: 60px 40px 0px;
+    padding: 60px 50px 0px;
   }
 
   .certs-text-container {
@@ -274,10 +285,6 @@
 }
 
 @media (max-width: 575px) {
-  .hero-about-content {
-    margin-left: 20px;
-  }
-
   .hero-about-content h1 {
     font-size: 36px;
   }
