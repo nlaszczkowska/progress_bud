@@ -564,6 +564,10 @@ body {
         margin-right: 40px;
     }
 
+    .navbar-left img {
+        height: 60px;
+    }
+
     .menu-toggle {
         display: block;
         background: none;
