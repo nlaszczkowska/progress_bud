@@ -18,3 +18,7 @@
   .certificates.in-view {
     animation: equipmentCategoryIn 1s ease-out forwards;
   }
+  
+  .gallery-item img {
+    cursor: pointer;
+  }
