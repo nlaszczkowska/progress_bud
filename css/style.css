@@ -157,7 +157,7 @@ body {
 .nav-links-container {
     color: white;
     z-index: 2;
-    position: absolute;
+    position: absolute;   
     top: 140px;
     width: 100%;
 }
@@ -173,6 +173,10 @@ body {
     background-color: white;
     opacity: 0.5;
     transition: background-color 0.3s ease;
+}
+
+.nav-links a.active {
+    color: #00DC7B;
 }
 
 .nav-links {
@@ -351,9 +355,8 @@ body {
 
 /* gallery-section */
 
-.gallery {
+.gallery.home {
     background-color:#F9F9F9;
-    
 }
 
 .gallery-container {
@@ -473,6 +476,10 @@ body {
     font-weight: 400;
     color: white;
     transition: color 0.3s ease-in-out;
+}
+
+.footer-links a.active {
+    color: #00DC7B;
 }
 
 .footer-links a:hover {
