@@ -93,12 +93,12 @@ body {
     width: 100%;
     color: white;
     position: absolute;
-    z-index: 2;
     margin: 30px 0;
 }
 
 .navbar-left {
     margin-left: 80px;
+    z-index: 2;
 }
 
 .navbar-left a {
@@ -122,6 +122,7 @@ body {
     font-family: var(--font-secondary);
     color: white;
     white-space: nowrap;
+    z-index: 2;
 }
 
 .contact-info a {
@@ -131,6 +132,7 @@ body {
 
 .navbar-right {
     margin-right: 80px;
+    z-index: 2;
 }
 
 .lang-switch {
@@ -206,10 +208,6 @@ body {
 }
 
 .menu-toggle {
-    display: none;
-}
-
-.menu-toggle-btn {
     display: none;
 }
 
@@ -559,26 +557,12 @@ body {
         margin-left: 100px;
     }
 
-    .menu-toggle-btn {
-        display: flex ;
-        margin-right: 40px;
-    }
-
     .navbar-left img {
         height: 60px;
     }
 
-    .menu-toggle {
-        display: block;
-        background: none;
-        border: none;
-        color: white;
-        font-size: 30px;
-        cursor: pointer;
-    }
-
     .menu-toggle:hover {
-        color: #9EA629;
+        color: black;
     }
 
     .nav-links-container {
@@ -598,18 +582,41 @@ body {
         animation: fadeIn 0.3s ease-in-out;
     }
 
-    .menu-close {
-        display: block;
-        position: absolute;
-        top: 30px;
-        right: 40px;
-        background: none;
-        border: none;
-        font-size: 30px;
-        color: #fff;
-        cursor: pointer;
+    .top-bar {
+        position: relative;
+      }
+        
+    .menu-btn-container {
+      position: absolute;
+      right: 40px;
+      z-index: 3;
     }
     
+    .menu-btn-container button {
+      background: none;
+      border: none;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+      outline: none;
+      width: 40px;
+      height: 40px;
+    }
+    
+    .menu-toggle {
+      display: block;
+    }
+    .menu-close {
+      display: none;
+    }
+    
+    .menu-btn-container.open .menu-toggle {
+      display: none;
+    }
+    .menu-btn-container.open .menu-close {
+      display: block;
+    }
+
     .desktop-only {
         display: none;
     }
@@ -782,10 +789,6 @@ body {
         font-size: 15px;
     }
 
-    .menu-toggle-btn {
-        margin-right: 20px;
-    }
-
     .hero-bottom-right.mobile-only .contact-info {
         font-size: 12px;
         font-weight: 500;
@@ -870,10 +873,6 @@ body {
 
     .menu-toggle {
         font-size: 25px;
-    }
-
-    .menu-toggle-btn {
-        margin-right: 15px;
     }
 
     .hero-bottom-right.mobile-only .contact-info {
