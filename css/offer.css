@@ -1,5 +1,5 @@
 .offer-text {
-    margin-left: 180px;
+    padding: 0px 180px;
 }
 
 .offer-text-container p {
@@ -14,14 +14,14 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-    margin-left: 400px;
-    padding: 50px 0;
+    padding: 50px 400px;
 }
 
 .services-container {
     align-items: center;
     gap: 150px;
     justify-content: flex-start;
+    padding-bottom: 50px;
 }
 
 .service-box h3 {
@@ -84,11 +84,11 @@
   animation: offerContentIn 0.8s ease-out forwards;
 }
 
-.crew-base {
+.crew-base-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 350px;
+    padding: 0px 150px;
     padding-bottom: 200px;
 }
 
@@ -205,7 +205,6 @@
   }
 
   .crew-base {
-    margin-left: 200px;
     padding-bottom: 150px;
     gap: 10px;
   }
@@ -259,7 +258,6 @@
   }
 
   .crew-base {
-    margin-left: 150px;
     padding-bottom: 120px;
   }
 
@@ -294,10 +292,6 @@
     margin-left: 120px;
   }
 
-  .crew-base {
-    margin-left: 100px;
-  }
-
   .services-container {
     gap: 100px;
   }
@@ -322,7 +316,6 @@
   }
 
   .crew-base {
-    margin-left: 60px;
     padding-bottom: 100px;
   }
 
@@ -373,7 +366,6 @@
   }
 
   .crew-base {
-    margin-left: 40px;
     padding-bottom: 80px;
   }
 
@@ -434,7 +426,6 @@
   }
 
   .crew-base {
-    margin-left: 30px;
     flex-direction: column;
     padding-bottom: 60px;
     align-items: flex-start;
@@ -486,7 +477,6 @@
   }
 
   .crew-base {
-    margin-left: 0px;
     padding: 20px;
   }
 
