@@ -1,7 +1,7 @@
 .contact-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 150px;
+    width: 90%;                
+    max-width: 1200px;       
+    margin: 0 auto 150px;
     background-color: #fff;
     padding: 40px;
     border-left: 6px solid #9EA629;
@@ -41,57 +41,33 @@
     animation: equipmentCategoryIn 1s ease-out forwards;
 }
 
-@media (max-width: 1730px) {
-    .contact-container {
-        max-width: 1000px;
-    }
-}
-
-@media (max-width: 1310px) {
-    .contact-container {
-        max-width: 900px;
-    }
-}
-
-@media (max-width: 1160px) {
-    .contact-container {
-        max-width: 800px;
-    }
-}
-
-@media (max-width: 1060px) {
-    .contact-container {
-        max-width: 700px;
-    }
-}
-
 @media (max-width: 991px) {
     .contact-container {
-        max-width: 600px;
-        margin-bottom: 100px;
+      margin-bottom: 100px;
     }
-}
-
-@media (max-width: 767px) {
+  }
+  
+  @media (max-width: 767px) {
     .contact-container {
-        padding: 0px 20px;
+      padding: 0 20px;
     }
     .contact-container p {
-        font-size: 18px;
+      font-size: 18px;
     }
     .contact-container p b {
-        font-size: 20px;
+      font-size: 20px;
     }
-}
-
-@media (max-width: 575px) {
+  }
+  
+  @media (max-width: 575px) {
     .contact-container {
-        border-left: none;
+      border-left: none;
     }
     .contact-container p {
-        font-size: 16px;
+      font-size: 16px;
     }
     .contact-container p b {
-        font-size: 18px;
+      font-size: 18px;
     }
-}
+  }
+  
