@@ -189,8 +189,8 @@
   }
 
   .offer-text {
-    margin-left: 140px;
-  }
+    padding: 0px 140px;
+ }
 
   .services-vertical {
     margin-left: 200px;
@@ -240,17 +240,9 @@
 }
 
 @media (max-width: 1310px) {
-  .hero-about-content {
-    margin-left: 100px;
-  }
-
   .hero-about-content p {
     font-size: 22px;
     line-height: 32px;
-  }
-
-  .offer-text {
-    margin-left: 100px;
   }
 
   .services-vertical {
@@ -303,12 +295,8 @@
 }
 
 @media (max-width: 1060px) {
-  .hero-about-content {
-    margin-left: 60px;
-  }
-
   .offer-text {
-    margin-left: 60px;
+    padding: 0px 100px;
   }
 
   .services-vertical {
@@ -333,10 +321,6 @@
 }
 
 @media (max-width: 991px) {
-  .hero-about-content {
-    margin-left: 40px;
-  }
-
   .hero-about-content p {
     font-size: 16px;
     line-height: 20px;
@@ -387,10 +371,6 @@
 }
 
 @media (max-width: 767px) {
-  .hero-about-content {
-    margin-left: 30px;
-  }
-
   .hero-about-content h1 {
     font-size: 36px;
   }
@@ -446,10 +426,6 @@
 }
 
 @media (max-width: 575px) {
-  .hero-about-content {
-    margin-left: 20px;
-  }
-
   .hero-about-content h1 {
     font-size: 32px;
   }
