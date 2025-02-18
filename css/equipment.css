@@ -6,7 +6,7 @@
     font-size: 64px;
     font-weight: 600;
     color: black;
-    margin: 60px 140px;
+    margin: 80px 140px;
 }
 
 .equipment-category {
@@ -81,7 +81,7 @@
 @media (max-width: 1730px) {
   .subpage-title {
     font-size: 56px;
-    margin: 60px 100px;
+    margin: 70px 100px;
   }
 
   .equipment-category {
@@ -107,7 +107,7 @@
 @media (max-width: 1310px) {
   .subpage-title {
     font-size: 54px;
-    margin: 40px 60px;
+    margin: 60px;
   }
 
   .equipment-category {
@@ -144,7 +144,7 @@
 
 @media (max-width: 1060px) {
   .subpage-title {
-    margin: 40px;
+    margin: 50px;
   }
 
   .equipment-category {
@@ -190,7 +190,7 @@
 @media (max-width: 767px) {
   .subpage-title {
     font-size: 36px;
-    margin: 30px;
+    margin: 40px;
   }
 
   .equipment-category {
@@ -215,7 +215,7 @@
 @media (max-width: 575px) {
   .subpage-title {
     font-size: 32px;
-    margin: 20px;
+    margin: 30px;
   }
 
   .equipment-category {
