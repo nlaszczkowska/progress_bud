@@ -38,6 +38,10 @@ main {
     color: black;
 }
 
+.container {
+  margin: 0;
+}
+
 @keyframes equipmentCategoryIn {
     from {
       opacity: 0;
