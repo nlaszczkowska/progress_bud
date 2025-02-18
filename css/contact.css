@@ -1,21 +1,39 @@
-.contact-container {
-    width: 90%;                
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex: 1;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container {              
     max-width: 1200px;       
-    margin: 0 auto 150px;
+    margin: 30px auto 150px;
     background-color: #fff;
     padding: 40px;
     border-left: 6px solid #9EA629;
 }
 
 .contact-container p {
-    font-size: 20px;
+    font-size: 24px;
     color: #333;
     line-height: 1.6;
     margin-bottom: 16px;
 }
 
 .contact-container p b {
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
     color: black;
 }
@@ -30,7 +48,7 @@
       transform: translateY(0);
     }
   }
-  
+ 
   .contact {
     opacity: 0;
     transform: translateY(20px);
@@ -45,27 +63,23 @@
     .contact-container {
       margin-bottom: 100px;
     }
-  }
-  
-  @media (max-width: 767px) {
-    .contact-container {
-      padding: 0 20px;
-    }
+
     .contact-container p {
-      font-size: 18px;
+        font-size: 20px;
+        line-height: 28px;
     }
+    
     .contact-container p b {
-      font-size: 20px;
+        font-size: 26px;
     }
   }
   
   @media (max-width: 575px) {
-    .contact-container {
-      border-left: none;
-    }
     .contact-container p {
       font-size: 16px;
+      line-height: 20px;
     }
+
     .contact-container p b {
       font-size: 18px;
     }
