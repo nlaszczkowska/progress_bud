@@ -1,4 +1,4 @@
-header {
+.navbar-subpages {
     background-color: #9EA629;
     color: white;
     padding: 1px 0;
@@ -19,7 +19,7 @@ header {
 .nav-links-cont::before {
     content: "";
     position: absolute;
-    top: 130px;
+    top: 110px;
     left: 50%;
     transform: translateX(-50%);
     width: 91%;
@@ -55,4 +55,14 @@ header {
     .nav-links-cont::before{
         display: none;
     }
-}    
+
+    .menu-btn-container {
+        top: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-btn-container {
+        top: 0px;
+    }
+}
