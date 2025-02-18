@@ -17,12 +17,12 @@ body {
 .hero {
     display: flex;
     position: relative;
+    min-height: 100vh;
 }
 
 .hero-left {
     width: 50%;
     background: #9EA629;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +30,6 @@ body {
 
 .hero-image {
     width: 50%;
-    height: 100vh;
     background: url('/images/image-hero.png') no-repeat center center;
     background-size: cover;
 }
@@ -38,7 +37,7 @@ body {
 .hero-overlay {
     position: absolute;
     width: 50%;
-    height: 100vh;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
