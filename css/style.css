@@ -12,6 +12,11 @@ body {
     background-color: white;
 }
 
+.container {
+    max-width: 1745px;
+    margin: 0 auto;
+}
+
 /*hero */
 
 .hero {

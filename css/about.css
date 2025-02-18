@@ -21,7 +21,8 @@
 
 .hero-about-content {
     position: absolute;
-    margin-left: 180px;
+    left: 0;
+    right: 0;
 }
 
 .hero-about-content h1 {
@@ -133,6 +134,25 @@
     margin-bottom: 130px;
 }
 
+@media (max-width: 2600px) {
+  .hero-about-content {
+    padding: 0px 300px;
+  }
+}
+
+@media (max-width: 2200px) {
+  .hero-about-content {
+    padding: 0px 200px;
+  }
+}
+
+@media (max-width: 2130px) {
+  .hero-about-content {
+    padding: 0px 180px;
+  }
+}
+
+
 @media (max-width: 1830px) {
 .info-text br {
   display: none;
@@ -145,7 +165,7 @@
 
 @media (max-width: 1730px) {
  .hero-about-content {
-    margin-left: 140px;
+    padding: 0px 140px;
   }
 
   .hero-about-content h1 {
@@ -227,7 +247,7 @@
 
 @media (max-width: 1060px) {
   .hero-about-content {
-    margin-left: 100px;
+    padding: 0px 100px;
   }
 
   .info-grid {
@@ -244,7 +264,7 @@
 
 @media (max-width: 991px) {
   .hero-about-content {
-    margin-left: 50px;
+    padding: 0px 50px;
   }
   .hero-about-content h1 {
     font-size: 46px;
