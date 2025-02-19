@@ -571,10 +571,6 @@ body {
         height: 60px;
     }
 
-    .menu-toggle:hover {
-        color: black;
-    }
-
     .nav-links-container {
         position: fixed;
         top: 0;
@@ -602,22 +598,41 @@ body {
       top: 40px;
       z-index: 3;
     }
-    
+
     .menu-btn-container button {
       background: none;
       border: none;
-      font-size: 30px;
-      color: white;
       cursor: pointer;
       outline: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 40px;
       height: 40px;
+      color: white;
+    }
+
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 24px;
     }
     
-    .menu-toggle {
-      display: block;
+    .hamburger .line {
+      width: 100%;
+      height: 3px;
+      background-color: white;
+      border-radius: 2px;
+      transition: all 0.3s ease;
     }
-    .menu-close {
+
+    .menu-close i {
+        font-size: 30px;
+    }
+
+    .menu-btn-container button.menu-close {
       display: none;
     }
     
@@ -726,6 +741,11 @@ body {
         margin-top: 40px;
     }
 
+    .menu-btn-container {
+        right: 40px;
+        top: 30px;
+    }
+
     .navbar-left img {
         height: 40px;;
     }
@@ -816,8 +836,7 @@ body {
     }
 
     .menu-btn-container {
-        right: 10px;
-        top: 20px;
+        right: 20px;
     }
 
     .navbar-left {
@@ -910,7 +929,20 @@ body {
         font-size: 14px;
     }
 
-    .menu-toggle {
+    .menu-btn-container {
+        top: 25px;
+    }
+
+    .hamburger {
+        width: 20px;
+        height: 14px;
+    }
+
+    .hamburger .line {
+        height: 2px;
+    }
+
+    .menu-close i {
         font-size: 25px;
     }
 
@@ -922,3 +954,4 @@ body {
         padding-top: 50px;
     }
 } 
+  

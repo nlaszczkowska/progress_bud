@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/gallery.css">
 </head>
@@ -34,8 +35,16 @@
             </div>
         </nav>
         <div class="menu-btn-container">
-          <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-          <button class="menu-close" onclick="toggleMenu()">X</button>
+          <button class="menu-toggle" onclick="toggleMenu()">
+            <div class="hamburger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </button>
+          <button class="menu-close" onclick="toggleMenu()">
+            <i class="fas fa-times" aria-hidden="true"></i>
+          </button>
         </div>
           <div class="nav-links-container">
             <ul class="nav-links">
