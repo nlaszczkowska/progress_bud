@@ -2,6 +2,10 @@
     padding-bottom: 150px;
 }
 
+.container {
+  margin: 0;
+}
+
 .subpage-title {
     font-size: 64px;
     font-weight: 600;
@@ -171,7 +175,7 @@
   }
 
   .equipment-category {
-    padding: 0 40px;
+    padding: 0 50px;
   }
 
   .equipment-category h3 {
@@ -194,7 +198,7 @@
   }
 
   .equipment-category {
-    padding: 0 30px;
+    padding: 0 40px;
   }
 
   .equipment-category h3 {
@@ -219,7 +223,7 @@
   }
 
   .equipment-category {
-    padding: 0 20px;
+    padding: 0 30px;
   }
 
   .equipment-category h3 {

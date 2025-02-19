@@ -11,7 +11,7 @@
 }
 
 .all-projects {
-  padding: 0 140px;
+  padding: 0 300px;
 }
 
 .project-year h2 {
@@ -56,19 +56,25 @@
 
 @media (max-width: 1730px) {
   .all-projects {
-    padding: 0 100px;
+    padding: 0 180px;
   }
 }
 
 @media (max-width: 1310px) {
   .all-projects {
-    padding: 0 60px;
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .all-projects {
+    padding: 0 80px;
   }
 }
 
 @media (max-width: 1060px) {
   .all-projects {
-    padding: 0 50px;
+    padding: 0 60px;
   }
 
   .project-year h2 {
@@ -85,6 +91,10 @@
 }
 
 @media (max-width: 991px) {
+  .all-projects {
+    padding: 0 50px;
+  }
+
   .project-year h2 {
     font-size: 18px;
   }
