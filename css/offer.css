@@ -84,13 +84,20 @@
   animation: offerContentIn 0.8s ease-out forwards;
 }
 
+.crew-base {
+  padding: 0px 400px;
+  display: flex;
+  align-items: center;
+}
+
 .crew-base-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 150px;
     padding-bottom: 200px;
+    gap: 250px;
 }
+
 
 .text h2 {
     font-size: 48px;
@@ -125,14 +132,13 @@
 }
 
 .certifications {
-    padding-bottom: 100px;
+    padding: 0px 400px 100px;
 }
 
 .certifications-container {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
+    align-items: center;
 }
 
 .cert-top {
@@ -182,6 +188,16 @@
   animation: sectionFadeIn 1s ease-out forwards;
 }
 
+@media (max-width: 2100px) {
+  .crew-stats {
+   align-items: end;
+  }
+
+  .crew-base-info {
+    gap: 50px;
+  }
+}
+
 @media (max-width: 1730px) {
   .hero-about-content p {
     font-size: 26px;
@@ -193,7 +209,7 @@
  }
 
   .services-vertical {
-    margin-left: 200px;
+    padding: 50px 250px;
   }
 
   .service-box p {
@@ -205,8 +221,13 @@
   }
 
   .crew-base {
-    padding-bottom: 150px;
+    padding: 0px 250px 150px;
     gap: 10px;
+  }
+
+  .crew-base-info {
+    gap: 10px;
+    padding-bottom: 0px;
   }
 
   .text h2 {
@@ -220,6 +241,10 @@
 
   .crew-stats img {
     max-width: 300px;
+  }
+
+  .certifications {
+    padding: 0px 250px 100px;
   }
 
   .cert-top {
@@ -246,23 +271,24 @@
   }
 
   .services-vertical {
-    margin-left: 150px;
+    padding: 50px 200px;
   }
 
   .crew-base {
-    padding-bottom: 120px;
+    padding: 0px 150px 150px;
+    gap: 10px;
   }
 
   .services-container {
     gap: 120px;
   }
 
-  .certifications-container br {
-    display: none;
+  .certifications {
+    padding: 0px 150px 150px ;
   }
 
-  .certifications-container {
-    padding: 0px 50px;
+  .certifications-container br {
+    display: none;
   }
 
   .cert-top {
@@ -281,7 +307,7 @@
   }
 
   .services-vertical {
-    margin-left: 120px;
+    padding: 50px 150px;
   }
 
   .services-container {
@@ -292,6 +318,14 @@
     font-size: 34px;
     line-height: 40px;
   }
+
+  .crew-base {
+    padding: 0px 100px 150px;
+  }
+
+  .certifications {
+    padding: 0px 100px 100px ;
+  }
 }
 
 @media (max-width: 1060px) {
@@ -300,11 +334,15 @@
   }
 
   .services-vertical {
-    margin-left: 60px;
+    padding: 50px 100px;
+  }
+
+  .crew-base-info {
+    padding-bottom: 0px;
   }
 
   .crew-base {
-    padding-bottom: 100px;
+    padding: 0px 50px 150px;
   }
 
   .services-container {
@@ -318,6 +356,10 @@
   .cert-top {
     gap: 40px;
   }
+
+  .certifications {
+    padding: 0px 50px 100px ;
+  }
 }
 
 @media (max-width: 991px) {
@@ -328,7 +370,7 @@
   }
 
   .offer-text {
-    margin-left: 40px;
+    padding: 0px 50px;
   }
 
   .offer-text-container p {
@@ -336,8 +378,7 @@
   }
 
   .services-vertical {
-    margin-left: 0px;
-    padding: 0px 90px;
+    padding: 0px 100px;
   }
 
   .services-container {
@@ -347,10 +388,15 @@
 
   .service-box {
     margin: 0;
+    padding-bottom: 50px;
   }
 
   .crew-base {
     padding-bottom: 80px;
+  }
+
+  .crew-base-info {
+    flex-direction: column;
   }
 
   .service-box h3 {
@@ -364,10 +410,6 @@
   .cert-top {
     gap: 30px;
   }
-
-  .certifications-container {
-    padding: 0px 40px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -379,10 +421,6 @@
     font-size: 12px;
     line-height: 16px;
     font-weight: 400;
-  }
-
-  .offer-text {
-    margin-left: 30px;
   }
 
   .offer-text-container p br {
@@ -422,6 +460,8 @@
 
   .cert-top-icon {
     order: 2;
+    display: flex;
+    align-self: center;
   }
 }
 
@@ -431,7 +471,6 @@
   }
 
   .offer-text {
-    margin-left: 0;
     padding: 0px 20px;
   }
 
@@ -453,16 +492,12 @@
   }
 
   .crew-base {
-    padding: 20px;
+    padding: 0px 40px 150px;
   }
 
   .crew-stats {
     padding: 0px;
  }
-
- .certifications-container {
-    padding: 0px 20px;
- } 
 
  .cert-bottom {
     margin-top: 10px;
