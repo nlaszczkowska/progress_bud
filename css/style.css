@@ -554,7 +554,7 @@ body {
 
     .services-container {
         gap: 40px;
-        padding: 0px 30px;
+        padding: 0px 20px;
     }
 
     .gallery-grid {
@@ -694,11 +694,7 @@ body {
     }
 
     .services-container {
-        flex-direction: column;
-    }
-
-    .service-box {
-        margin: 0 auto;
+        gap: 10px;
     }
 
     .gallery-container {
@@ -756,6 +752,14 @@ body {
 
     .services {
         padding: 80px 20px;
+    }
+
+    .services-container {
+        flex-direction: column;
+    }
+
+    .service-box {
+        margin: 0 auto;
     }
 
     .services-title {

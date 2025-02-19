@@ -237,6 +237,11 @@
     .info-grid {
       gap: 40px;
     }
+
+    .certs {
+      width: 100%;
+      align-items: center;
+  }
 }
 
 @media (max-width: 1060px) {
@@ -298,9 +303,7 @@
   }
 
   .certs {
-    width: 100%;
     margin-top: 20px;
-    align-items: center;
   }
 }
 
