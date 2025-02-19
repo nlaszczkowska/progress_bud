@@ -2,17 +2,16 @@
     padding-bottom: 60px;
 }
 
+.project-year {
+    margin-bottom: 40px;
+}
+
 .container {
   margin: 0;
 }
 
 .all-projects {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.project-year {
-    margin-bottom: 40px;
+  padding: 0 140px;
 }
 
 .project-year h2 {
@@ -23,8 +22,8 @@
 }
 
 .project-year ul {
-    list-style-type: none;
-    padding-left: 0;
+    list-style-type: circle;
+    padding-left: 20px;
 }
 
 .project-year ul li {
@@ -32,7 +31,6 @@
     font-weight: 400;
     color: #6C6C6C;
     padding: 8px 0;
-    border-bottom: 1px solid #ddd;
 }
 
 @keyframes equipmentCategoryIn {
@@ -56,19 +54,21 @@
   animation: equipmentCategoryIn 1s ease-out forwards;
 }
 
+@media (max-width: 1730px) {
+  .all-projects {
+    padding: 0 100px;
+  }
+}
+
 @media (max-width: 1310px) {
   .all-projects {
-    max-width: 800px;
-  }
-
-  .project-year h3 {
-    font-size: 20px;
+    padding: 0 60px;
   }
 }
 
 @media (max-width: 1060px) {
   .all-projects {
-    max-width: 650px;
+    padding: 0 50px;
   }
 
   .project-year h2 {
@@ -85,10 +85,6 @@
 }
 
 @media (max-width: 991px) {
-  .all-projects {
-    max-width: 600px;
-  }
-
   .project-year h2 {
     font-size: 18px;
   }
@@ -100,8 +96,7 @@
 
 @media (max-width: 767px) {
   .all-projects {
-    max-width: 500px;
-    padding: 0 30px;
+    padding: 0 40px;
   }
 
   .project-year h3 {
@@ -116,8 +111,7 @@
 
 @media (max-width: 575px) {
   .all-projects {
-    max-width: 100%;
-    padding: 0 20px;
+    padding: 0 30px;
   }
 
   .project-year h2 {
