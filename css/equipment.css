@@ -2,19 +2,14 @@
     padding-bottom: 150px;
 }
 
-.container {
-  margin: 0;
-}
-
 .subpage-title {
     font-size: 64px;
     font-weight: 600;
     color: black;
-    margin: 80px 140px;
 }
 
 .equipment-category {
-    padding: 0 300px;
+    padding: 0 100px;
 }
 
 .equipment-category h3 {
@@ -80,6 +75,12 @@
 
 .equipment.in-view {
   animation: equipmentCategoryIn 1s ease-out forwards;
+}
+
+@media (max-width: 2030px) {
+  .subpage-title {
+    margin: 70px 50px;
+  }
 }
 
 @media (max-width: 1730px) {
