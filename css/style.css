@@ -397,10 +397,7 @@ body {
 }
 
 .gallery-grid img {
-    width: 100%;
-    height: auto;
     transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 
 .gallery-grid img:hover {
@@ -880,7 +877,7 @@ body {
     }
 
     .gallery-container {
-        padding: 40px 5px;
+        padding: 40px 10px;
     }
 
     .gallery-title {
@@ -956,6 +953,10 @@ body {
 
     .nav-links-container {
         padding-top: 50px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(1, 1fr);
     }
 } 
   
