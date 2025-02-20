@@ -10,6 +10,7 @@
   }
   
   .certificates {
+    padding-bottom: 130px;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s ease-out, transform 1s ease-out;
@@ -18,7 +19,7 @@
   .certificates.in-view {
     animation: equipmentCategoryIn 1s ease-out forwards;
   }
-  
-  .gallery-item img {
-    cursor: pointer;
-  }
+
+  .gallery-item {
+    aspect-ratio: 3 / 4;
+}
