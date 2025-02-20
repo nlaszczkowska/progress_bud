@@ -18,7 +18,7 @@
 }
 
 .services-container {
-    align-items: center;
+    /* align-items: center; */
     gap: 150px;
     justify-content: flex-start;
     padding-bottom: 50px;
@@ -347,6 +347,7 @@
 
   .services-container {
     gap: 80px;
+    padding-bottom: 50px;
   }
 
   .crew-stats {
@@ -382,8 +383,8 @@
   }
 
   .services-container {
-    align-items: flex-start;
-    padding: 0px;
+    flex-direction: column;
+    align-items: self-start ;
   }
 
   .service-box {
