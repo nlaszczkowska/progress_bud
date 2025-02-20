@@ -12,14 +12,8 @@ main {
   flex: 1;
 }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-container {              
-    max-width: 1200px;       
-    margin: 30px auto 150px;
+.contact-container {                 
+    margin: 30px 100px 150px;
     background-color: #fff;
     padding: 40px;
     border-left: 6px solid #9EA629;
@@ -36,10 +30,6 @@ main {
     font-size: 30px;
     text-transform: uppercase;
     color: black;
-}
-
-.container {
-  margin: 0;
 }
 
 @keyframes equipmentCategoryIn {
@@ -65,7 +55,7 @@ main {
 
 @media (max-width: 991px) {
     .contact-container {
-      margin-bottom: 100px;
+      margin: 30px 50px 100px;
     }
 
     .contact-container p {
@@ -79,6 +69,10 @@ main {
   }
   
   @media (max-width: 575px) {
+    .contact-container {
+      margin: 20px 30px 50px;
+    }
+
     .contact-container p {
       font-size: 16px;
       line-height: 20px;
