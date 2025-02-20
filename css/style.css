@@ -960,3 +960,17 @@ body {
     }
 } 
   
+@media (max-height: 680px) {
+.nav-links-container {
+    padding-top: 10px;
+}
+}
+
+@media (max-height: 600px) {
+.nav-links-container {
+    padding-top: 30px;
+}
+.nav-links {
+    gap: 10px;
+}
+}
