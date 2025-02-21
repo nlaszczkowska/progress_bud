@@ -63,21 +63,29 @@ document.addEventListener("DOMContentLoaded", function() {
     const observer = new IntersectionObserver(
       entries => {
         entries.forEach(entry => {
-          if (entry.intersectionRatio > 0) {
-            entry.target.classList.add("in-view");
+          if (entry.target.classList.contains("services")) {
+            if (entry.intersectionRatio > 0) {
+              entry.target.classList.add("in-view");
+              observer.unobserve(entry.target);
+            }
           } else {
-            entry.target.classList.remove("in-view");
+            if (entry.intersectionRatio > 0) {
+              entry.target.classList.add("in-view");
+            } else {
+              entry.target.classList.remove("in-view");
+            }
           }
         });
       },
       { threshold: 0, rootMargin: "0px 0px -50px 0px" }
-    );
+    );    
     document.querySelectorAll(
       ".hero-content, .hero-about-content, .services, .services-vertical, .gallery, .company-info, .crew-base, .subpage-title, .equipment, .projects, .certificates, .contact"
     ).forEach(section => {
       observer.observe(section);
     });
   });
+
   function toggleMenu() {
     let menu = document.querySelector(".nav-links-container");
     if (!menu) {
@@ -92,6 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
       btnContainer.classList.toggle("open");
     }
   }
+  
   function highlightActiveLink() {
     let currentPage = window.location.pathname.split("/").pop();
     if (currentPage === "") {
